@@ -11,6 +11,7 @@ impl Tab {
     }
 }
 
+#[allow(dead_code)]
 pub fn init() {
     let tab = Tab::new(2);
     tab.open_tab();
